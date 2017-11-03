@@ -23,7 +23,7 @@ let package = Package(
         .target(
             name: "CEvent",
             dependencies: [],
-            publicHeaders: "."
+            publicHeadersPath: "."
         ),
     ]
 )
