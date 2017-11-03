@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "CEvent",
+    pkgConfig: "libevent",
     providers: [
         .brew(["libevent"]),
         .apt(["libevent-dev"])
